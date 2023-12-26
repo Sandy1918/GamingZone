@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+img {
+  width: 100%;
+}
+.body {
+  background-color: rgb(16, 15, 15);
+  margin: 10px;
+  border-radius: 10px;
+  color: rgb(74, 236, 74);
+  padding: 0.1rem;
+}
+
+/* Media Queries - Mobile first Approach*/
+@media (min-width: 300px) {
+  nav img {
+    height: 7vh;
+    width: auto;
+    margin-right: 1rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+  }
+  .colour {
+    display: flex;
+  }
+  .one {
+    padding-top: 1rem;
+  }
+  .one h4,
+  p {
+    text-align: center;
+  }
+  .gameheading {
+    font-size: 2rem;
+  }
+  .caption {
+    font-family: "Cedarville Cursive", cursive;
+  }
+  .one img {
+    padding-top: 10px;
+  }
+
+  .two {
+    background-color: aliceblue;
+    padding: 1.5rem;
+    color: black;
+    width: 78%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .two label {
+    font-size: 0.9rem;
+    margin-right: 3px;
+  }
+
+  .two input[type="text"] {
+    border: none;
+    padding: 0.8rem;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    width: 90%;
+    background-color: aliceblue;
+  }
+  .age {
+    border: none;
+    padding: 0.8rem;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    width: 90%;
+    background-color: aliceblue;
+  }
+  .two input[type="radio"] {
+    margin-right: 0.7rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .button {
+    background-color: black;
+    color: rgb(74, 236, 74);
+    border: 3px solid white;
+    padding: 0.5rem;
+    border-radius: 50px;
+  }
+  .button_cen {
+    display: flex;
+    justify-content: center;
+  }
+  .gamelist {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+  }
+  .whites {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+  }
+  .card {
+    margin-top: 5px;
+    width: 90%;
+    padding: 0.3rem;
+  }
+  .whites .para {
+    margin-bottom: 5px;
+  }
+  .whites p {
+    font-size: 12px;
+  }
+
+  .segmentA,
+  .segmentB {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+  .segmentA h3 {
+    color: black;
+    text-align: center;
+    padding-top: 4vh;
+  }
+  .segmentA img {
+    width: 70%;
+  }
+  .segmentB h3 {
+    color: black;
+    text-align: center;
+    padding-top: 4vh;
+  }
+  .segmentB {
+    padding-bottom: 2rem;
+  }
+  .segmentB img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 700px) {
+  .mainlogo {
+    height: 10vh;
+    width: auto;
+  }
+  .colour,
+  .p1 {
+    font-size: 2.5rem;
+  }
+  .gameheading {
+    font-size: 4rem;
+  }
+  .caption {
+    font-size: 2.5rem;
+  }
+  .enhance {
+    display: flex;
+    width: 100%;
+  }
+  .segmentA {
+    width: 40%;
+    margin-left: 2.6rem;
+  }
+  .segmentB {
+    width: 40%;
+    margin-left: 3.3rem;
+  }
+  .two {
+    width: 85%;
+    font-size: 2rem;
+  }
+  .two input[type="text"] {
+    font-size: 1.5rem;
+  }
+  .two input[type="number"] {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .two label {
+    font-size: 1.5rem;
+    margin-right: 0.9rem;
+  }
+  .games {
+    width: 100%;
+  }
+  .gamelist h3 {
+    font-size: 3rem;
+  }
+  .whites p {
+    font-size: 1.5rem;
+  }
+  .h3 {
+    padding-bottom: 1rem;
+  }
+}
+/*1300*/
+
+@media (min-width: 900px) {
+  .logo {
+    justify-content: left;
+    padding-left: 10vw;
+  }
+  .one p,
+  h4 {
+    display: none;
+  }
+  .desc {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .one img {
+    height: 90%;
+  }
+  .two {
+    width: 90%;
+    height: 75%;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+  }
+  .two label {
+    font-size: 0.9rem;
+    margin-right: 0.1rem;
+  }
+  .button {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .games {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+  .two input[type="text"] {
+    font-size: 1.2rem;
+  }
+  .two input[type="number"] {
+    font-size: 1.2rem;
+  }
+  .whites {
+    width: 18%;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .enhance {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .segmentB {
+    margin: 0%;
+    width: 42%;
+    padding-bottom: 0;
+  }
+  .segmentA {
+    margin: 0%;
+    width: 42%;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1700px) {
+  .logo {
+    justify-content: left;
+    padding-left: 10vw;
+  }
+  .one p,
+  h4 {
+    display: none;
+  }
+  .desc {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .two {
+    width: 90%;
+    height: 75%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .games {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+  .whites {
+    width: 18%;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .enhance {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .segmentB {
+    margin: 0%;
+    width: 42%;
+    padding-bottom: 0;
+  }
+  .segmentA {
+    margin: 0%;
+    width: 42%;
+    padding-bottom: 0;
+  }
+}
